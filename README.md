@@ -20,14 +20,14 @@ For default functionality, run:
 ```python
 python track_video.py 
 ```
-This will run the satellite pose tracking program on the specified video `roe2_synthetic.mp4`.
+This will run the satellite pose tracking program on the specified video `roe2_synthetic_960.mp4`.
 
 # Arguments
 
 Possible argument options:
 
 - `--device`: Select what hardware to use for model inference. **Options**: `cpu`, `mps`, `cuda`
-- `--video`: Select video to estimate the pose of. **Options**: `roe1_synthetic.mp4`, `roe2_synthetic.mp4`
+- `--video`: Select video to estimate the pose of. **Options**: `roe1_synthetic_960.mp4`, `roe2_synthetic_960.mp4`
 - `--kps`: Provide the path of the selected keypoints of the object.
 - `--no-save`: Don't save a video of the pose estimation.
 - `--weights`: Provide the path to custom model weights.

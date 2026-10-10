@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 from ultralytics import YOLO
 
-video_path = "roe2_synthetic.mp4"
+video_path = "roe2_synthetic_960.mp4"
 weights_path = "models/yolo26s_pose_dark.pt"
 kps_path = "kps.npy" # keypoints file. Model is trained with this as well so don't modify
 output_path = "output_vids/output.mp4"
